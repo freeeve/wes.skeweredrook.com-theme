@@ -1,0 +1,113 @@
+body {
+  background-color: #2e2e2e;
+}
+body a:link, body a:visited, body a:hover {
+  color: #eaf2d9;
+}
+ol {
+  list-style-type: decimal;
+}
+ul {
+  list-style-type: disc;
+}
+ul li {
+  margin-left: 20px;
+}
+div#header {
+  background-color: #0e2d3d;
+  font-family: Droid Serif, serif;
+  color: #b35e4d;
+  padding: 5px;
+  text-align: center;
+  margin: 0px auto;
+  text-shadow: -2px 2px 2px #000000;
+}
+div#header div#title {
+  font-size: 48pt;
+}
+div#header div#subtitle {
+  font-weight: bold;
+  font-size: 14pt;
+}
+div#container {
+  padding-top: 10px;
+  -moz-box-shadow: inset 0px 3px 5px 0px #000000;
+  -webkit-box-shadow: inset 0px 3px 5px 0px #000000;
+  box-shadow: inset 0px 3px 5px 0px #000000;
+}
+div#articles {
+  margin: 0px auto;
+  width: 80%;
+}
+article {
+  font-family: Droid Serif, serif;
+  font-weight: normal;
+  font-size: 13pt;
+  color: #a4a998;
+  padding: 5px;
+}
+article header {
+  font-size: 10pt;
+  padding-bottom: 10px;
+}
+article h3.article-title {
+  font-size: 22pt;
+  text-shadow: -1px 1px 1px #000000;
+  color: #eaf2d9;
+}
+article h3.header {
+  font-size: 22pt;
+  text-shadow: -1px 1px 1px #000000;
+  color: #eaf2d9;
+}
+article h3.header a:link, article h3.header a:visited {
+  text-decoration: none;
+}
+article h3.header a:hover {
+  color: #b35e4d;
+}
+.gist .gist-file {
+  border: 0px;
+  box-shadow: #000000 -2px 2px 2px 2px;
+  background-color: #191919 !important;
+  width: 800px;
+  margin: 0px auto;
+}
+.gist .gist-file .gist-syntax {
+  border: 0px;
+  background-color: #191919 !important;
+}
+.normal {
+  font-weight: normal;
+}
+.gist .gist-file .gist-highlight {
+  background-color: #191919 !important;
+  color: #a4a998 !important;
+  font-family: 'Droid Sans Mono' !important;
+  font-weight: normal !important;
+}
+.gist .gist-file .gist-highlight .gist-syntax .nc {
+  color: #353535;
+}
+.gist .gist-file .gist-highlight .o, .gist .gist-file .gist-highlight .nt {
+  color: #b35e4d;
+  font-weight: normal;
+}
+.gist .gist-file .gist-highlight .k {
+  color: #d9bf8c;
+  font-weight: normal;
+}
+.gist .gist-file .gist-highlight .p {
+  color: #b2e573;
+  font-weight: normal;
+}
+.gist .gist-file .gist-highlight .n {
+  color: #eaf2d9;
+  font-weight: normal;
+}
+.gist .gist-file .gist-highlight pre {
+  padding: 0px !important;
+}
+.gist-meta {
+  display: none;
+}

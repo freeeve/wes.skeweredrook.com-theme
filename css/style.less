@@ -1,0 +1,133 @@
+@bgcolor: #2E2E2E;
+@lightyellow: #EAF2D9;
+//@headerbg : #23363D;
+//@titlecolor : #73B8C3;
+//@headerbg: #191919;
+//@titlecolor: #223E6B;
+@headerbg: #0E2D3D;
+@titlecolor: @orange;
+@lightblue : #23363D;
+@lightgreen: #B2E573; // maybe for code highlight
+@darkorange: #B28600; // maybe for code highlight
+@darkyellow: #D9BF8C; //maybe for code highlight
+@orange: #B35E4D; //maybe for code highlight
+@darkblue: #669991; //maybe for code highlight
+@codebg: #191919;
+
+body {
+  background-color: @bgcolor;
+  a:link, a:visited, a:hover {
+    color: @lightyellow;
+  }
+}
+
+ol {
+  list-style-type: decimal;
+  li {
+
+  }
+}
+ul {
+  list-style-type: disc;
+  li {
+    margin-left: 20px;
+  }
+}
+
+
+div#header {
+  background-color: @headerbg; 
+  font-family: Droid Serif, serif;
+  color: @titlecolor;
+  padding: 5px;
+  text-align: center;
+  margin: 0px auto;
+  text-shadow: -2px 2px 2px #000; 
+ 
+  div#title {
+    font-size: 48pt;
+  }
+  div#subtitle {
+    font-weight: bold;
+    font-size: 14pt;
+  }
+}
+
+@shadow: inset 0px 3px 5px 0px #000;
+div#container {
+  padding-top: 10px;
+  -moz-box-shadow: @shadow;
+  -webkit-box-shadow: @shadow;
+  box-shadow: @shadow;
+}
+
+div#articles {
+  margin: 0px auto;
+  width: 80%;
+}
+
+article {
+  font-family: Droid Serif, serif;
+  font-weight: normal;
+  font-size: 13pt;
+  color: @lightyellow * .7;
+  padding: 5px;
+  header {
+    font-size: 10pt;
+    padding-bottom: 10px;
+  }
+  article section.content {
+  }
+  h3.article-title {
+    font-size: 22pt;
+    text-shadow: -1px 1px 1px #000; 
+    color: @lightyellow;
+  }
+  h3.header {
+    font-size: 22pt;
+    text-shadow: -1px 1px 1px #000; 
+    color: @lightyellow;
+    a:link,a:visited {
+      text-decoration: none;
+    }
+    a:hover {
+      color: @orange;
+    }
+  }
+}
+
+.gist .gist-file {
+  border: 0px;
+  box-shadow: #000 -2px 2px 2px 2px;
+  background-color: #191919 !important;
+  width: 800px;
+  margin: 0px auto;
+}
+
+.gist .gist-file .gist-syntax {
+  border: 0px;
+  background-color: #191919 !important;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+.gist .gist-file .gist-highlight {
+  background-color: #191919 !important;
+  color: @lightyellow * .7 !important;
+  font-family: 'Droid Sans Mono' !important;
+  font-weight: normal !important;
+  .gist-syntax .nc {color: #353535}
+  .o,.nt {color: @orange; .normal;}
+  .k {color: @darkyellow; .normal;}
+  .p {color: @lightgreen; .normal;}
+  .n {color: @lightyellow; .normal;}
+  pre {
+    padding: 0px !important;
+  }
+}
+  .gist-meta {
+    display:none;
+  }
+
