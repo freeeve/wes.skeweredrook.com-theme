@@ -1,1 +1,3 @@
-lessc css/style.less > css/style.css
+#!/bin/bash
+#this creates minified css
+lessc css/style.less -x > css/style.css

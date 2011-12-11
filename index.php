@@ -1,7 +1,5 @@
 <?php
 mp_get_header(); // Without this, the clouds will fall from the sky...
-mp_register_style('droidfonts', 'http://fonts.googleapis.com/css?family=Droid+Sans+Mono|Droid+Serif:400,700,400italic');
-mp_enqueue_style('droidfonts');
 $mp = mongopress_load_mp(); $mp_options = $mp->options();
 $mp_perma = mongopress_load_perma(); 
 get_template_part('header');
